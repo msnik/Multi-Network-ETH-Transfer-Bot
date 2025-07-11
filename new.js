@@ -91,9 +91,7 @@ class MultiNetworkTransferBot {
             verticalLayout: 'default'
         })));
 
-        console.log(chalk.cyan('
-🚀 Multi-Network, Multi-Wallet Transfer Bot - https://t.me/ostadkachal 
-'));
+        console.log(chalk.cyan('Multi-Network, Multi-Wallet Transfer Bot - https://t.me/ostadkachal'));
 
         // خواندن کلیدهای خصوصی از env
         await this.initializeWallets();
